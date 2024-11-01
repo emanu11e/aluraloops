@@ -17,3 +17,27 @@
     display: flex;
     align-items: center;
 }
+.lista-menu{
+    display:none ;
+    position: absolute;
+    top: 100% 
+    width: 60vw
+}
+.container_botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu_titulo,
+.lista-menu_item{
+    padding: 1em;
+    background-color: bisque;
+}
+.lista-menu_titulo{
+    color: aliceblue;
+}
+.lista-menu_link{
+    background: rgb(rgb(37, 36, 36), rgb(101, 87, 141), rgb(48, 173, 163));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: blueviolet;
+    background-clip: text;
+    text-transform: uppercase;
+}
