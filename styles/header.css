@@ -33,6 +33,7 @@
 }
 .lista-menu_titulo{
     color: aliceblue;
+    font-weight: black;
 }
 .lista-menu_link{
     background: rgb(rgb(37, 36, 36), rgb(101, 87, 141), rgb(48, 173, 163));
@@ -40,4 +41,7 @@
     -webkit-text-fill-color: blueviolet;
     background-clip: text;
     text-transform: uppercase;
+}
+.container_botao{
+display: none;
 }
