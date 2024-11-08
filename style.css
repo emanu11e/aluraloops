@@ -1,4 +1,7 @@
- @import url("styles/header.css");
+@import url("banner.css");
+@import url("styles/banner.css");
+
+@import url("styles/header.css");
  :robot{
      --font-principal:"poppings"
  }
@@ -9,3 +12,4 @@
       font-size: 16px ;
       font-weight: 400;
   }
+ 
